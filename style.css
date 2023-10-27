@@ -18,18 +18,19 @@ body {
   padding: 10px;
   border-width: 0.5px 0.5px;
   border-style: solid;
-  border-color: #ffffff;
+  /* border-color: #ffffff; */
+  border-color: red;
   margin-bottom: 10px;
   background-color: #e8eaf6;
   color: #000;
 }
 
-.timerContainer {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  min-width: 90vw;
-}
+/* .timerContainer { */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* min-width: 90vw; */
+/* } */
 
 h2 {
   margin-top: 0px;
