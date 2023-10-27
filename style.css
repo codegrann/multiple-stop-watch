@@ -82,3 +82,12 @@ h4 {
   background-color: #171515;
   cursor: pointer;
 }
+
+@media (max-width: 767px) {
+  #controls {
+    min-width: 80vw;
+  }
+  .timer {
+    min-width: 80vw;
+  }
+}
