@@ -64,9 +64,11 @@ h4 {
 }
 
 .timerButton {
-  background-color: #6745c2;
+  /* background-color: #6745c2; */
+  background-color: #464343;
   color: white;
   border: solid 0.5px white;
+  border-radius: 4px;
   padding: 10px 10px 10px 10px;
   text-align: center;
   text-decoration: none;
@@ -74,4 +76,9 @@ h4 {
   font-size: 16px;
   margin: 4px 2px;
   width: 100px;
+  transition: background-color 500ms;
+}
+.timerButton:hover {
+  background-color: #171515;
+  cursor: pointer;
 }
