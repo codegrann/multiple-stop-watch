@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 90vw;
+  min-width: 60vw;
   padding: 10px;
   border-width: 0.5px 0.5px;
   border-style: solid;
@@ -33,7 +33,7 @@ body {
 /* } */
 
 h2 {
-  margin-top: 0px;
+  /* margin-top: 0px; */
 }
 
 h1 {
@@ -45,8 +45,9 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-width: 90vw;
+  min-width: 60vw;
   margin-top: 10px;
+  border: 2px solid rgb(8, 6, 6);
   padding: 10px 10px 10px 10px;
 }
 
