@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Multiple Timers</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&family=Yellowtail&display=swap"
-      rel="stylesheet"
-    />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <!-- <link -->
+    <!-- href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&family=Yellowtail&display=swap" -->
+    <!-- rel="stylesheet" -->
+    <!-- /> -->
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -29,7 +29,39 @@
         + New Timer
       </button>
     </div>
-    <div id="timerContainer"></div>
+    <div id="timerContainer">
+      <div class="timer">
+        <div class="innerContainer">
+          <h4>Timer ${i + 1}</h4>
+          <div class="timer-display">
+            <span id="timer-${i + 1}"></span>
+          </div>
+        </div>
+        <div class="timer-controls">
+          <button
+            class="timerButton"
+            onclick="startButton(${i})"
+            id="start-${i + 1}"
+          >
+            Start
+          </button>
+          <button
+            class="timerButton"
+            onclick="pauseButton(${i})"
+            id="pause-${i + 1}"
+          >
+            Pause
+          </button>
+          <button
+            class="timerButton"
+            onclick="stopButton(${i})"
+            id="reset-${i + 1}"
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+    </div>
 
     <!-- <script type="text/javascript" src="script.js" defer></script> -->
   </body>
