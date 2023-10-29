@@ -91,6 +91,7 @@ h4 {
   }
   .timer {
     min-width: 80vw;
+    /* border: 2px solid; */
   }
 }
 @media (max-width: 480px) {

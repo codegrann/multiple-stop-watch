@@ -12,13 +12,13 @@ function loadSite() {
           </div>
         </div>
         <div class="timer-controls">
-          <button class="timerButton" onclick="startButton(${i})" id="start-${
+          <button class="timerButton timerCtrl" onclick="startButton(${i})" id="start-${
       i + 1
     }">Start</button>
-          <button class="timerButton" onclick="pauseButton(${i})" id="pause-${
+          <button class="timerButton timerCtrl" onclick="pauseButton(${i})" id="pause-${
       i + 1
     }">Pause</button>
-          <button class="timerButton" onclick="stopButton(${i})" id="reset-${
+          <button class="timerButton timerCtrl" onclick="stopButton(${i})" id="reset-${
       i + 1
     }">Reset</button>
         </div>
