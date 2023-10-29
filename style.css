@@ -25,7 +25,7 @@ body {
   color: #000;
 }
 .timer:hover {
-  box-shadow: 2px 2px 20px grey, -2px -2px 20px grey;
+  box-shadow: 2px 2px 15px grey, -2px -2px 15px grey;
 }
 
 /* .timerContainer { */
