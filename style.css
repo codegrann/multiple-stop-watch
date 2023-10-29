@@ -18,9 +18,14 @@ body {
   padding: 10px;
   border: 0.5px solid rgb(97, 95, 95);
   border-radius: 3px;
+  box-shadow: 2px 2px 10px grey, -2px -2px 10px grey;
+  transition: box-shadow 300ms;
   margin-bottom: 10px;
   background-color: #e8eaf6;
   color: #000;
+}
+.timer:hover {
+  box-shadow: 2px 2px 20px grey, -2px -2px 20px grey;
 }
 
 /* .timerContainer { */
