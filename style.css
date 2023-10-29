@@ -16,10 +16,8 @@ body {
   align-items: center;
   min-width: 60vw;
   padding: 10px;
-  border-width: 0.5px 0.5px;
-  border-style: solid;
-  /* border-color: #ffffff; */
-  border-color: red;
+  border: 0.5px solid rgb(97, 95, 95);
+  border-radius: 3px;
   margin-bottom: 10px;
   background-color: #e8eaf6;
   color: #000;
@@ -47,7 +45,7 @@ h1 {
   align-items: center;
   min-width: 60vw;
   margin-top: 10px;
-  border: 2px solid rgb(8, 6, 6);
+  /* border: 2px solid rgb(8, 6, 6); */
   padding: 10px 10px 10px 10px;
 }
 .timer-controls {
@@ -96,7 +94,7 @@ h4 {
 }
 @media (max-width: 480px) {
   .timer-controls {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
